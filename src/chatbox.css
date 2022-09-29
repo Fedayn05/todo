@@ -1,0 +1,66 @@
+.container{
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 300px;
+    background-image: url("../public/bcc.jpg");
+    background-size: cover;
+    
+    padding: 0;
+    border-radius: 10px;
+}
+input{
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    background-color: white;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+button{
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    margin-left: 5px;
+    background-color: rgb(129, 209, 9);
+}
+form{
+    margin-top: 250px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+hr{
+    margin: 0;
+}
+body{
+   
+}
+h1{
+    background-color:rgb(129, 209, 9) ;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    color: white;
+}
+.mess{
+    background-color: burlywood;
+   max-width: 40%;
+   float: right;
+   border-radius: 10px;
+   margin-top: 10px;
+   margin-right: 5px;
+   padding: 0px 10px ;
+   font-weight: bold;
+}
+.header{
+    
+}

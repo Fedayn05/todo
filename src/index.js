@@ -71,8 +71,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Counter> Hello fedayns</Counter> */}
-    {/* <Todo/> */}
-    <Chat/>
+    <Todo/>
+    {/* <Chat/> */}
     {/* <Welcome/>
     <Table/> */}
     {/* <App/> */}

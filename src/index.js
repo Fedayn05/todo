@@ -5,7 +5,7 @@ import React,{Component} from 'react';
 import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Counter } from './counter';
-import { Todo } from './todo';
+import { Todo } from './todo/todo';
 import { Chat } from './chatbox';
 // import Table from './Table';
 
@@ -71,8 +71,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Counter> Hello fedayns</Counter> */}
-    <Todo/>
-    {/* <Chat/> */}
+    {/* <Todo/> */}
+    <Chat/>
     {/* <Welcome/>
     <Table/> */}
     {/* <App/> */}

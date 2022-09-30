@@ -1,12 +1,14 @@
-import { Component } from "react";
+import { Component, Fragment } from "react";
 import "./chatbox.css";
 
 export class Chat extends Component{
     constructor(props){
         super(props);
             this.state={
-               
-               affich:""
+                chat: { message: "", reponse: "" },
+               affich:"",
+               allchat:[],
+               active: true
             }
             this.questions=["Hello","How are you?","What is your name?"];
             this.answers=["Hi!","Iam fine thank you","Iam a chat boot"];
@@ -46,11 +48,14 @@ export class Chat extends Component{
 
 render(){
     let {affich,answer}=this.state;
-    return(<>
+    
+    return(
+    <>
        <div className="container" >
        <div className="header">
      
         <h1>  <i class="bi bi-chat-fill"></i> Chating!!</h1><hr /></div>
+       
         <div className="mess">{answer}</div>
          <form onSubmit={this.inpquestion}>
         <input type="text" value={this.state.affich} 
